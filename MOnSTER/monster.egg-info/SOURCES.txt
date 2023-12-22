@@ -1,0 +1,13 @@
+setup.py
+monster/MOnSTER.py
+monster/__init__.py
+monster/export_output.py
+monster/features_extraction.py
+monster/find_motifs_and_CLUMPs_in_sequences.py
+monster/import_data.py
+monster/scaling_and_clustering.py
+monster/scoring.py
+monster.egg-info/PKG-INFO
+monster.egg-info/SOURCES.txt
+monster.egg-info/dependency_links.txt
+monster.egg-info/top_level.txt

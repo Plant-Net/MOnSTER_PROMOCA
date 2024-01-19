@@ -1,6 +1,21 @@
 # MOnSTER_PROMOCA
 This repository contains the folders of the tools MOnSTER and PRO-MOCA
 
+## MOnSTER required files:
+- File with enriched motifs in the positive class (one per line)
+- File with protein sequences in the positive class (FASTA format)
+- File with protein sequences in the negative class (FASTA format)
+  
+### Demo-MOnSTER
+In the folder MOnSTER/demo/, the 0_DEMO_MOnSTER.ipynb demo is available step by step, for general purposes.
+MOnSTER/demo/1_OOmy_DEMO_MOnSTER.ipynb and MOnSTER/demo/2_PPN_DEMO_MOnSTER.ipynb contains the script used to analyze the data in the manuscript.
+The analyzed data are stored in MOnSTER/data/ for the list of motifs and in / MOnSTER/data/datasets/ for the sequences of effectors and non effectors.
+
+## PROMOCA required files:
+- MOnSTER output MOnSTER_results/clustering_and_CLUMPs/df_motifs_CLUMPs.tsv containing two columns motif|belonging CLUMP
+### Demo-PROMOCA
+In the folder PRO_MOCA/notebooks, the 0_DEMO_PRO_MOCA.ipynb demo is available step by step.
+
 ## About MOnSTER
 MOnSTER is a pipeline to find CLUMPs (CLUster of Motifs of Proteins)
 that are discriminative between two datasets of sequences
@@ -34,9 +49,6 @@ physicochemical properties that are in line with the positive
 dataset and if they are more present in the positive dataset
 compared to the negative one.
 
-### Demo
-In the folder MOnSTER/demo a demo is available step by step.
-
 ## About PRO-MOCA
 PRO-MOCA (PROtein-MOtif Characteristics Aligner) is an
 aligner of motif sequences.
@@ -60,5 +72,4 @@ extremities. This is because motifs are very short sequences
 hence introducing gaps could mean losing the information
 of the motif itself.
 
-### Demo
-In the folder PRO_MOCA/notebooks a demo is available step by step.
+

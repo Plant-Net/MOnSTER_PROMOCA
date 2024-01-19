@@ -1,5 +1,7 @@
 # MOnSTER_PROMOCA
 This repository contains the folders of the tools MOnSTER and PRO-MOCA
+#### Install dependencies:
+Move to the directory ```./MOnSTER``` and run ```pip install -e``` in the terminal. 
 
 ### MOnSTER required files:
 - File with enriched motifs in the positive class (one per line)

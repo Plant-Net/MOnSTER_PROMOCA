@@ -1,8 +1,20 @@
 # MOnSTER_PROMOCA
 This repository contains the folders of the tools MOnSTER and PRO-MOCA
 #### Install dependencies:
-Move to the directory ```./MOnSTER``` and run ```pip install -e``` in the terminal. 
+Move to the directory ```./MOnSTER``` and run ```pip install -e``` in the terminal. \
 
+Software tested with:
+- Python (v3.8)
+- pandas (v1.2.4)
+- numpy (v1.21.2)
+- UpSetPlot (v0.8.0)
+- matplotlib (v3.7.1)
+- scipy (v1.10.1)
+- radialtree (v0.1.0)
+- re (v2.2.1)
+- Bio (Biopython) (v1.70)
+- sklearn (v1.1.1)
+  
 ### MOnSTER required files:
 - File with enriched motifs in the positive class (one per line)
 - File with protein sequences in the positive class (FASTA format)

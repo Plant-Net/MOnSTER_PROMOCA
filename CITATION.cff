@@ -1,0 +1,18 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Calia"
+  given-names: "Giulia"
+- family-names: "Porracciolo"
+  given-names: "Paola"
+- family-names: "Kozlowski"
+  given-names: "Djampa"
+- family-names: "Danchin"
+  given-names: "Etienne G. J." 
+- family-names: "Bottini"
+  given-names: "Silvia"
+title: "MOnSTER_PROMOCA"
+version: 1.0.0
+doi: https://doi.org/10.5281/zenodo.11368310
+date-released: 2024-05-28
+url: "https://github.com/Plant-Net/MOnSTER_PROMOCA"
